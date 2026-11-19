@@ -1,2 +1,17 @@
-# mr-black-sreeju-backend
-Mr Black Sreeju Insta V Downloader is a modern, responsive web project designed for Android and desktop users. Features a stylish dark theme, Instagram link validation, and secure API integration. Created by Sreeju.
+
+{
+  "name": "mr-black-sreeju-backend",
+  "version": "1.0.0",
+  "description": "Mr Black Sreeju Insta V Downloader Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "dotenv": "^16.4.7"
+  }
+}
